@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Second">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Innovation >>"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1861ce"
+        android:background="@drawable/colour2"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social life, welfare\n and awareness >>"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1861ce"
+        android:background="@drawable/colour1"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education and\n awarness >>"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1861ce"
+        android:background="@drawable/colour1"
+        />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthcare and \n Medication >>"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1861ce"
+        android:background="@drawable/colour1"
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel and \nTourism >>"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1861ce"
+        android:background="@drawable/colour1"
+        />
+</LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cont"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:text="The Corona virus is a terrible virus around the world. The virus has left the world in the palm of your hand.Today,\npeople do not know how to get rid of this virus and how to get back to it. Lockdown is rampant throughout this virus. As a result, the financial situation is worsening. The shop's office is closed for viruses.This time we have to be in a closed room We must always see that the distance with each human being is 4 meters. We are promising that we will stay home and save lives this time"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

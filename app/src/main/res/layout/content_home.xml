@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ViewFlipper android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" What is Corova Virus/Covid-19?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" What are the symptoms of COVID-19?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" How does COVID-19 spread?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.
+Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air
+ But according to new news This virus can float up to 4 meters in the air"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Economical effect due to covid"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The extent of the damage will depend on how quickly the virus is contained, the steps authorities take to contain it, and how much economic support governments are willing to deploy during the epidemic’s immediate impact and aftermath.
+
+Early indications of COVID-19’s impact on the Chinese economy are worse than initially forecast. Surveys of China’s manufacturing and services sector plunged to record lows in February, automobile sales sank a record 80 percent, and China’s exports fell 17.2 percent in January and February. The official data confirmed a widespread slowdown in economic activity foreshadowed in low pollution levels and depressed shipping traffic, among other informal barometers. Analysts have sharply revised down estimates of Chinese growth, with many now predicting a drop in first quarter GDP, the first contraction since China began reporting quarterly data in 1992. As COVID-19 spreads, China’s economic recovery will be challenged as demand from other countries drops as they cope with the virus.
+
+Although the outbreak appears to have slowed in China, COVID-19 and its impacts have gone global. Infections are mounting in Europe, South Korea, Iran, the United States, and elsewhere, with authorities implementing increasingly restrictive measures to contain the virus. Europe and Japan are likely already in recession territory given their weak fourth quarter performance and high reliance on trade. While the United States entered the crisis with a tailwind, some analysts are forecasting a contraction in U.S. GDP in the second quarter. Estimates of the global impact vary: early last week, the Organisation for Economic Co-operation and Development (OECD) predicted that COVID-19 will lower global GDP growth by one-half a percentage point for 2020 (from 2.9 to 2.4 percent); Bloomberg Economics warns that full-year GDP growth could fall to zero in a worst-case pandemic scenario."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" How to use soap?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gd"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Why we need to use Handwash/Soap?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="The fight against COVID-19.The world is counting on you to help stop the spread of Covid-19, the deadly new disease caused by SARS-CoV-2, or severe acute respiratory syndrome coronavirus 2.
+Under the microscope, coronaviruses appear to be covered with pointy spires, giving them the appearance of having a crown or CORONA hence the name. Beneath the crown is the outer layer of the virus, which is made up of lipids, or what you and I would call fat.
+Now imagine that coronavirus is your butter dish, covered with buttery fat.
+You try to wash your butter dish with water alone, but that butter is not coming off the dish, Williams explained. You need some soap to dissolve grease. So soap or alcohol are very, very effective against dissolving that greasy liquid coating of the virus."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Why we need to use Sanitizer?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="They need to have at least 60% alcohol in them, Schaffner said. It's the alcohol that's the virus killer.
+        Just putting a little dollop in the palm of your hand and wiping quickly isn't good enough, Schaffner said.
+        You've got to use enough and get it all over the surfaces, he said. Rub it all over your hands, between your fingers and on the back of your hands. That's because alcohol is a different chemical property, Wuest said. It helps break up the germ membranes, but you need to make sure it gets into direct contact with the bacteria or virus."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Why we need to use Mask?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#1861ce"
+            android:background="@drawable/colour1"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This document provides advice on the use of masks in communities, during home care, and in health care settings in areas that have reported cases of COVID-19. It is intended for individuals in the community, public health and infection prevention and control (IPC) professionals, health care managers, health care workers (HCWs), and community health workers. This updated version includes a section on Advice to decision makers on the use of masks for healthy people in community settings."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>
